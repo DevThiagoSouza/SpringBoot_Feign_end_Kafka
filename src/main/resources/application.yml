@@ -1,0 +1,14 @@
+api:
+  cep:
+    username: suasenha
+    senha: suasenha
+
+spring:
+  kafka:
+    producer:
+      booststrap-services: localhost:9092
+      key-serializer: org.apache.kafka.common.serialization.SpringSerializer
+      value-seralizer: org.apache.kafka.common.serialization.SpringSerializer
+
+topic:
+  enderco-cliente: topic_endereco_cliente
